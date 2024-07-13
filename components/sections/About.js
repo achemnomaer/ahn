@@ -5,6 +5,8 @@ import ScrollAnimation from "../animation/ScrollAnimation";
 
 import Skill from "../Skill";
 
+{
+  /* 
 const informations = [
   {
     label: "Name",
@@ -31,6 +33,8 @@ const informations = [
     info: "15 November 2000",
   },
 ];
+*/
+}
 
 export default function About() {
   return (
@@ -66,7 +70,7 @@ export default function About() {
                 experiences together.
               </p>
             </div>
-
+            {/* 
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 justify-between gap-y-4">
               {informations.map((information, index) => (
                 <li className="flex gap-x-8" key={index}>
@@ -79,6 +83,7 @@ export default function About() {
                 </li>
               ))}
             </ul>
+            */}
           </div>
         </ScrollAnimation>
 
