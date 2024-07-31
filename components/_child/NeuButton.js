@@ -11,7 +11,7 @@ export default function NeuButton({ children, light, dark, both, ...rest }) {
     }
   );
   return (
-    <Link href="/resume_achem.pdf" passHref legacyBehavior>
+    <Link href="/Resume-Achem Habib Nomaer.pdf" passHref legacyBehavior>
       <a target="_blank">
         <button {...rest} className={className}>
           {children}
