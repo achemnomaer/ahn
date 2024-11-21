@@ -28,11 +28,14 @@ export default function ProjectCard({ project }) {
               {title}
             </h5>
             <p className="flex gap-x-2">
-              <Link href={githubLink} passHref legacyBehavior>
-                <a target="_blank">
-                  <DiGithubBadge className="cursor-pointer w-7 h-7 text-gray-700 dark:text-gray-200 hover:text-primary dark:hover:text-primary" />
-                </a>
-              </Link>
+              {githubLink && (
+                <Link href={githubLink} passHref legacyBehavior>
+                  <a target="_blank">
+                    <DiGithubBadge className="cursor-pointer w-7 h-7 text-gray-700 dark:text-gray-200 hover:text-primary dark:hover:text-primary" />
+                  </a>
+                </Link>
+              )}
+
               <Link href={liveLink} passHref legacyBehavior>
                 <a target="_blank">
                   <HiMiniLink className="cursor-pointer w-6 h-6 text-gray-700 dark:text-gray-200 hover:text-primary dark:hover:text-primary" />

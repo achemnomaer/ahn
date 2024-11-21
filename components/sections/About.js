@@ -45,29 +45,25 @@ export default function About() {
           <div className="space-y-4  mx-auto">
             <div className="relative overflow-hidden w-fit leading-relaxed text-contentDark dark:text-contentLight">
               <p className="">
-                <span className=" bg-primary text-white py-2 px-3 rounded font-bold mr-1 float-left text-2xl">
-                  H
-                </span>
-                ey there! I’m Achem Habib Nomaer from Bangladesh. Despite my
-                academic background in Biotechnology, I found my true calling in
-                coding and web development. What started as a personal interest
-                has evolved into a serious pursuit.
+                Hi there! I’m a full-stack developer who loves creating
+                efficient and user-friendly web applications. With experience in
+                technologies like React.js, Next.js, Django, and Express.js,
+                I’ve worked on a variety of projects, including eCommerce sites,
+                real estate platforms, and education consultancy websites.
               </p>
 
               <p className="mt-4">
-                As a self-taught web developer, I have embraced the continuous
-                learning process and have successfully completed various
-                projects that showcase my skills and dedication. Though I am
-                early in my professional career, I am committed to further
-                developing my expertise and contributing effectively to the
-                field.
+                I’m all about turning ideas into functional and visually
+                appealing solutions. I’m also curious by nature and enjoy
+                exploring new technologies like AI and machine learning—they’re
+                shaping the future, and it’s exciting to be part of it.
               </p>
 
               <p className="mt-4">
-                I am enthusiastic about the opportunities and challenges that
-                lie ahead and look forward to collaborating on innovative
-                projects. Let’s connect and create impactful digital
-                experiences together.
+                When I’m not coding, you’ll probably find me watching a good
+                thriller, working out at the gym, or hanging out with friends.
+                Feel free to check out my work and reach out—let’s build
+                something awesome together!
               </p>
             </div>
             {/* 

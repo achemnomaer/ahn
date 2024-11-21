@@ -24,13 +24,6 @@ const Landing = () => {
                 exit="hidden"
                 className="flex items-center gap-1"
               >
-                <Image
-                  unoptimized={true}
-                  alt="waving-hand"
-                  width={30}
-                  height={30}
-                  src="/image/waving-hand.gif"
-                />
                 <p className="text-lg md:text-xl mt-2 md:mt-1.5 text-black dark:text-white">
                   Hello, I am
                 </p>

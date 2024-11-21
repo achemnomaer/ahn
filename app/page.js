@@ -1,5 +1,5 @@
-import Navbar from "@/components/Navbar";
 import ScrollTop from "@/components/_child/ScrollTop";
+import Navbar from "@/components/Navbar";
 import About from "@/components/sections/About";
 import Contact from "@/components/sections/Contact";
 import Landing from "@/components/sections/Landing";
